@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 1. Title -->
+    <title>Basic Registration Page</title>
+
+    <!-- 2. Meta tag for display -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 3. Meta tag for character set -->
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <!-- 4. Header -->
+    <header>
+        <h1>Welcome to the Registration Page</h1>
+    </header>
+
+    <!-- 5. Heading -->
+    <h2>Please Register Below</h2>
+
+    <!-- 6. Paragraph -->
+    <p>Fill out the form to register. Your information will be kept confidential.</p>
+
+    <!-- 7. Basic Registration Form -->
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- 8. Table displaying common user information -->
+    <h3>Registered Users:</h3>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>Vicole</td>
+            <td>vicole@example.com</td>
+            <td>123-456-7890</td>
+        </tr>
+        <tr>
+            <td>Rhymer</td>
+            <td>rhymer@example.com</td>
+            <td>987-654-3210</td>
+        </tr>
+    </table>
+
+    <!-- 9. An image -->
+    <img src="https://cdn.asp.events/CLIENT_EnergyNe_9A2AD9E1_052D_C466_21FA5F6F01D93263/sites/YES-2023/media/libraries/exhibitors/power-learnt.jpg/fit-in/500x9999/filters:no_upscale()" alt="Company Logo" width="200">
+
+    <!-- 10. An external link -->
+    <p>For more information, visit <a href="https://google.com">Google</a></p>
+    
+
+</body>
+</html>
