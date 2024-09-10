@@ -1,0 +1,98 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* light gray background */
+    margin: 20px; /* add some margin around the page */
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #333; /* dark gray background */
+    color: #fff; /* white text */
+    padding: 20px;
+    text-align: center; /* center the header text */
+  }
+  
+  header h1 {
+    margin: 0; /* remove default margin from h1 */
+  }
+  
+  /* Form Styles */
+  
+  form {
+    margin: 20px; /* add some margin around the form */
+    padding: 20px;
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 10px; /* add some rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add some subtle shadow */
+  }
+  
+  label {
+    display: block; /* make labels block elements */
+    margin-bottom: 10px; /* add some space between labels */
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%; /* make input fields full width */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* light gray border */
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50; /* green background */
+    color: #fff; /* white text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; /* add some rounded corners */
+    cursor: pointer; /* change cursor to a pointing hand */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41; /* darker green background on hover */
+  }
+  
+  /* Table Styles */
+  
+  table {
+    width: 100%; /* make table full width */
+    border-collapse: collapse; /* remove default border spacing */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* light gray border */
+    padding: 10px;
+    text-align: left; /* left align table cell text */
+  }
+  
+  th {
+    background-color: #f0f0f0; /* light gray background */
+  }
+  
+  /* Image Styles */
+  
+  img {
+    width: 200px; /* set image width */
+    height: auto; /* maintain image aspect ratio */
+    margin: 20px; /* add some margin around the image */
+    border: 1px solid #ccc; /* light gray border */
+  }
+  
+  /* Link Styles */
+  
+  a {
+    text-decoration: none; /* remove default underline */
+    color: #337ab7; /* blue text */
+  }
+  
+  a:hover {
+    color: #23527c; /* darker blue text on hover */
+  }
