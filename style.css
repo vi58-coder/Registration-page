@@ -1,4 +1,4 @@
-/* Global Styles */
+
 
 * {
     box-sizing: border-box;
@@ -18,6 +18,8 @@
     background-color: #333; /* dark gray background */
     color: #fff; /* white text */
     padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
     text-align: center; /* center the header text */
   }
   
@@ -28,7 +30,7 @@
   /* Form Styles */
   
   form {
-    margin: 20px; /* add some margin around the form */
+    margin: 20px 0; /* add some margin around the form */
     padding: 20px;
     border: 1px solid #ccc; /* light gray border */
     border-radius: 10px; /* add some rounded corners */
@@ -62,6 +64,10 @@
   
   /* Table Styles */
   
+  h3{
+    margin-bottom: 1rem;
+  }
+
   table {
     width: 100%; /* make table full width */
     border-collapse: collapse; /* remove default border spacing */
@@ -81,9 +87,12 @@
   
   img {
     width: 200px; /* set image width */
-    height: auto; /* maintain image aspect ratio */
+    height: 200px; /* maintain image aspect ratio */
     margin: 20px; /* add some margin around the image */
     border: 1px solid #ccc; /* light gray border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /* Link Styles */
